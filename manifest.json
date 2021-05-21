@@ -8,10 +8,10 @@
     "518": "icon.png"
   },
   "browser_action": {
-    "default_title": "Hello!"
+    "default_popup": "popup.html"
   },
   "permissions": ["tabs", "storage", "notifications", "<all_urls>"],
   "background": {
-    "scripts": ["background.js"]
+    "page": "background.html"
   }
 }
