@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Theme-Changer",
-  "version": "2.0.1",
-  "description": "This extension is basically dark theme",
+  "name": "Class Account",
+  "version": "1.0.1",
+  "description": "This extension automatically opens up meet links of specified user",
   "author": "Sohan Bandary",
   "icons": {
     "518": "icon.png"

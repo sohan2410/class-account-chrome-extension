@@ -4,9 +4,9 @@ chrome.storage.sync.get("ca", function (data) {
   let temp = window.location.href;
   let url = new URL(temp);
   if (url.origin === "https://meet.google.com") {
-    alert("hello from onCreated if condition true");
+    // alert("hello from onCreated if condition true");
     url.search = "?authuser=" + num;
-    console.log(url.toString());
+    // console.log(url.toString());
     location.assign(url.toString());
   }
 });

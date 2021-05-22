@@ -1,0 +1,15 @@
+.body{
+    padding: 0;
+    margin: 0;
+}
+.form,
+.get {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 5px;
+}
+.get{
+    padding: 4px;
+}
